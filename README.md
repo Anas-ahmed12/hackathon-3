@@ -1,4 +1,4 @@
-# Ecommerce Hackathon Website Clone Of HEKTO
+# Ecommerce Hackathon Website HEKTO
 
 This is a fully responsive, feature-rich e-commerce website built during a hackathon using **Next.js**. The website includes dynamic components, engaging design, and smooth user experiences for showcasing and purchasing products with a modern and clean design and i use josefin sans font for the website which is shown in figma design.
 
