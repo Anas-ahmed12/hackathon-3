@@ -121,7 +121,7 @@ const DiscountItem = () => {
         src={slides[activeSlide].imageSrc}
         alt={slides[activeSlide].imageAlt}
         width={700}
-        height={597}
+        height={700}
         className="w-full h-full object-cover rounded-lg transition-all duration-500 ease-in-out"
       />
     </div>

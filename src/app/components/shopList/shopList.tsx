@@ -64,6 +64,8 @@ const ShopList = () => {
                 src={item.imageUrl}
                 alt={item.name}
                 className=" h-52 w-60 object-cover bg-cover rounded-lg ml-44"
+                height={200}
+                width={200}
               />
             </div>
             <div className="w-full md:w-2/3">

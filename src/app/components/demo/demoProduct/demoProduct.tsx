@@ -49,7 +49,7 @@ const demoProductData = [
               <div key={index}>
                 <div className='flex flex-col md:flex-row gap-4 mb-4 items-center '>
                   <div className='w-[120px] md:w-[150px] lg:w-[180px]'>
-                    <Image src={item.pic} alt="" className='w-full h-auto object-cover' />
+                    <Image src={item.pic} alt="" className='w-full h-auto object-cover'width={500} height={500} />
                   </div>
                   <div className='flex flex-col md:flex-row items-center justify-between w-full'>
                     <div className='mb-4 md:mb-0'>

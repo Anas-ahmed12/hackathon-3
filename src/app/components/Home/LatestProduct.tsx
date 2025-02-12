@@ -78,7 +78,7 @@ const LatestProduct = () => {
             {/* Product Image */}
             <div className="w-full h-[269px] mx-auto relative bg-[#F7F7F7] dark:bg-[#484848] hover:cursor-pointer">
               <Link href={`/latestProduct/${product._id}`}>
-                <Image src={product.imageUrl} alt={product.name} className="w-full h-full object-scale-down" />
+                <Image src={product.imageUrl} alt={product.name} height={269} width={269}   className="w-full h-full object-scale-down" />
               </Link>
 
               {/* Hover Icons */}

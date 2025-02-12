@@ -28,6 +28,8 @@ const About = ({ offers }: { offers: any }) => {
       src="/about.png"
       alt="About Us"
       className="w-full max-w-[400px] md:max-w-[500px] shadow-xl shadow-[#151875]"
+      height={500}
+      width={500}
     />
   </div>
 
@@ -66,6 +68,8 @@ const About = ({ offers }: { offers: any }) => {
                 src={offer.image}
                 alt={offer.title}
                 className="w-full h-full object-contain"
+                width={500}
+                height={500}
               />
             </div>
             <h3 className="text-lg font-semibold text-[#151875] dark:text-white">{offer.title}</h3>
@@ -84,18 +88,24 @@ const About = ({ offers }: { offers: any }) => {
             alt="Client 1"
             className={`w-16 h-16 ${selectedImage === 0 ? 'border-2 scale-125 ease-in-out duration-300 dark:border-white/70' : 'cursor-pointer'}`}
             onClick={() => setSelectedImage(0)}
+            width={500}
+            height={500}
           />
           <Image
             src="/tes1.png"
             alt="Client 2"
             className={`w-16 h-16 mx-4 ${selectedImage === 1 ? 'border-2 scale-125 ease-in-out duration-300 dark:border-white/70' : 'cursor-pointer'}`}
             onClick={() => setSelectedImage(1)}
+            width={500}
+            height={500}
           />
           <Image
             src="/tes2.png"
             alt="CImaglient 3"
             className={`w-16 h-16 ${selectedImage === 2 ? 'border-2  scale-125 ease-in-out duration-300 dark:border-white/70' : 'cursor-pointer'}`}
             onClick={() => setSelectedImage(2)}
+            width={500}
+            height={500}
           />
         </div>
         <div className="mt-4">

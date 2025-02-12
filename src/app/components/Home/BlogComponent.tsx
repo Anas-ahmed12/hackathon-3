@@ -45,6 +45,8 @@ const BlogComponent = () => {
                 src={post.image}
                 alt={post.title}
                 className="w-full h-56 object-cover"
+                width={500}
+                height={300}
               />
             </div>
             

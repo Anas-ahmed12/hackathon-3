@@ -14,6 +14,8 @@ const SecondHero = () => {
         src="/secondhero.png" 
         alt="Sofa"
         className="w-full h-full object-cover"
+        width={500}
+        height={500}
       />
     </div>
     

@@ -169,6 +169,8 @@ export default function SingleBlog({ params }: SingleBlogProps) {
                 alt="Blog featured image"
                 className="rounded-lg object-cover"
                 fill
+                width={500}
+                height={500}
               />
             </div>
 

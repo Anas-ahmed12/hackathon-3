@@ -11,6 +11,8 @@ const   NewsLetter = () => {
       <Image
         src="/news.png" 
         alt="Promo Banner"
+        width={500}
+        height={500}
         className="w-full h-full object-cover brightness-125 dark:brightness-90"
       />
       

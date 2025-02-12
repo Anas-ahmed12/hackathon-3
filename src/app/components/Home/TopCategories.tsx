@@ -64,6 +64,8 @@ const TopCategories = () => {
                   src={product.image}
                   alt={product.title}
                   className="rounded-2xl w-full h-auto object-cover"
+                  width={100}
+                  height={100}
                   
                   />
                   </Link>

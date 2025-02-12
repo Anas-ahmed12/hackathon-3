@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { faArrowRight, faHeart, faStar, faStarHalfAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import Link from "next/link";
+// import Link from "next/link";
 import AddToCartButton from "@/app/components/Cart/AddToCartButton";
 import NavigationLinksForDynamicPages from "@/app/components/NavigationLinksForDynamicPages";
 import WishlistButton from "@/app/components/wishlist/wishListButton";

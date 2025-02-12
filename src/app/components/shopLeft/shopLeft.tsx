@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 
-import { BsChevronDown } from 'react-icons/bs'
+// import { BsChevronDown } from 'react-icons/bs'
 import { FaListUl, FaRegHeart, FaSearchPlus, FaStar } from 'react-icons/fa'
 import { BsFillGridFill } from 'react-icons/bs'
 import { CgShoppingCart } from 'react-icons/cg'
@@ -367,7 +367,7 @@ const ShopLeft = () => {
             <div key={index} className='mb-8'>
               <div className='md:flex gap-6 boxShadow p-6 items-center'>
                 <div>
-                  <Image src={item.Image} alt="" className='w-full h-auto' />
+                  <Image src={item.Image} alt="" className='w-full h-auto' width={500} height={500}/>
                 </div>
                 <div>
                   <div className='flex items-center gap-4'>

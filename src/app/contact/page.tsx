@@ -101,6 +101,8 @@ const Contact = () => {
         src="/contact.png"
         alt="Contact"
         className="w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[500px] md:h-[500px]"
+        height={500}
+        width={500}
       />
     </div>
   </div>

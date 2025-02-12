@@ -38,12 +38,12 @@ export default function RootLayout({
           }}
         />
         {/* Chatbot Embed Script */}
-        <Script
+        {/* <Script
           src="https://www.chatbase.co/embed.min.js"
           data-chatbot-id="jbDpS42hjEjLrkFpbr468"
           data-domain="www.chatbase.co"
           defer
-        />
+        /> */}
       </head>
       <body className={inter.className}>
 

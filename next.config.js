@@ -6,3 +6,4 @@ const nextConfig = {
 };
 
 module.exports = nextConfig; // Use CommonJS export instead of ES module
+

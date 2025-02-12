@@ -93,6 +93,8 @@ const ShopexOffers = () => {
               <Image src={offer.image}
                 alt={offer.title}
                 className="w-full h-full object-contain"
+                width={500}
+                height={500}
               />
             </div>
             <h3 className="text-lg font-semibold text-[#151875] dark:text-white">{offer.title}</h3>
